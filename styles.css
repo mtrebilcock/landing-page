@@ -10,6 +10,16 @@ body {
     color: #f9faf8;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px;
+}
+
+.hero {
+    display: flex;
+}
+
 .header-hero, .footer {
     background-color: #1F2937;
 }
@@ -33,6 +43,8 @@ ul a{
 
 ul {
     list-style: none;
+    display: flex;
+    gap: 16px;
 }
 
 .footer {
