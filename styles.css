@@ -1,2 +1,79 @@
 /* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-hero, .footer {
+    background-color: #1F2937;
+}
+
+.hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote-large {
+    background-color: #E5E7EB;
+}
+
+.quote-italic {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+
+}
+
+.quote-author {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.text {
+    color: #1F2937;
+}
