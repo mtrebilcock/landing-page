@@ -88,11 +88,6 @@ button {
     background-color: #3882f6;
 }
 
-.information h2 {
-    font-size: 36px;
-    font-weight: 800;
-    color: #1F2937;
-}
 
 .quote-large {
     background-color: #E5E7EB;
@@ -117,4 +112,29 @@ button {
 
 img {
     border-radius: 10px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.info-container {
+    display: flex;
+    gap: 50px;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
 }
