@@ -35,11 +35,9 @@ body {
     display: flex;
     flex-direction: column;
     padding: 50px;
+    flex-shrink: 2;
 }
 
-.hero-image {
-    display: flex;
-}
 
 
 .header-hero, .footer {
@@ -58,6 +56,7 @@ body {
     }
 .hero-main-text, .hero-secondary-text, .hero button {
     margin: 20px 20px;
+    justify-content: right;
 }
 
 ul a{
@@ -84,26 +83,29 @@ button {
     border-radius: 8px;
 }
 
-.call-to-action {
-    background-color: #3882f6;
-}
-
-
 .quote-large {
     background-color: #E5E7EB;
+    margin: 60px 0px;
+    padding: 100px;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+
 }
 
 .quote-italic {
-    font-size: 36px;
+    font-size: 25px;
     color: #1F2937;
     font-style: italic;
-
+    display: flex;
+    text-align: left;
 }
 
 .quote-author {
-    font-size: 36px;
+    font-size: 25px;
     color: #1F2937;
     font-weight: 800;
+    text-align: right;
 }
 
 .text {
@@ -116,14 +118,12 @@ img {
 
 .information {
     display: flex;
-    justify-content: space-around;
 }
 
 .title {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin: 60px 0;
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
@@ -132,9 +132,53 @@ img {
 .info-container {
     display: flex;
     gap: 50px;
+    margin: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    flex: auto;
 }
 
 .info {
     max-width: 200px;
     text-align: center;
+}
+
+/* can't seem to center this container... */
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    background-color: #3882f6;
+    margin: 50px;
+}
+
+.call-to-action-text {
+    color: #E5E7EB;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.call-to-action-title {
+    color: #E5E7EB;
+    font-weight: 700;
+}
+
+.bug-fixing {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
 }
